@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="d-flex justify-content-between">
-                        <a href="/view" class="btn btn-secondary px-4">⬅️ Back</a>
+                        <a href="/" class="btn btn-secondary px-4">⬅️ Back</a>
                         <button type="submit" class="btn btn-primary px-4">💾 Update</button>
                     </div>
                 </form>

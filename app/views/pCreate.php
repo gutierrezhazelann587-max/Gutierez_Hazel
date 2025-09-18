@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="d-flex justify-content-between">
-                        <a href="/view" class="btn btn-secondary">⬅️ Back</a>
+                        <a href="/" class="btn btn-secondary">⬅️ Back</a>
                         <button type="submit" class="btn btn-success">✅ Create Profile</button>
                     </div>
                 </form>
