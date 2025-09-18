@@ -17,8 +17,8 @@
             <div class="card-body">
                 <form action="" method="post">
                     <div class="mb-3">
-                        <label for="user_id" class="form-label">User ID:</label>
-                        <input type="text" id="user_id" name="user_id" class="form-control" required>
+                        <label for="username" class="form-label">User ID:</label>
+                        <input type="text" id="username" name="username" class="form-control" required>
                     </div>
 
                     <div class="mb-3">

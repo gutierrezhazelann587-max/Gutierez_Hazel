@@ -21,12 +21,12 @@ class ProfilelController extends Controller {
     public function create()
     {
         if ($this->io->method() === 'post') {
-            $user_id = $this->io->post('user_id');
+            $username= $this->io->post('username');
             $age = $this->io->post('age');
             $address = $this->io->post('address');
 
             $data = array(
-                'user_id' => $user_id,
+                'username' => $username,
                 'age' => $age,
                 'address' => $address
             );
@@ -40,12 +40,12 @@ class ProfilelController extends Controller {
         public function edits($id)
     {
         if ($this->io->method() === 'post') {
-            $user_id = $this->io->post('user_id');
+            $username = $this->io->post('username');
             $age = $this->io->post('age');
             $address = $this->io->post('address');
 
             $data = array(
-                'user_id' => $user_id,
+                'username' => $username,
                 'age' => $age,
                 'address' => $address
             );

@@ -21,7 +21,7 @@
                     <thead class="table-dark">
                         <tr>
                             <th>ID</th>
-                            <th>User ID</th>
+                            <th>Nickname</th>
                             <th>Age</th>
                             <th>Address</th>
                             <th>Actions</th>
@@ -31,7 +31,7 @@
                         <?php foreach ($data as $item): ?>
                         <tr>
                             <td><?= ($item['id']); ?></td>
-                            <td><?= ($item['user_id']); ?></td>
+                            <td><?= ($item['username']); ?></td>
                             <td><?= ($item['age']); ?></td>
                             <td><?= ($item['address']); ?></td>
                             <td>

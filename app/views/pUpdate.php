@@ -17,9 +17,9 @@
             <div class="card-body">
                 <form action="" method="post">
                     <div class="mb-3">
-                        <label for="user_id" class="form-label fw-bold">User ID</label>
-                        <input type="text" id="user_id" name="user_id" 
-                               value="<?= ($data['user_id']); ?>" 
+                        <label for="username" class="form-label fw-bold">User ID</label>
+                        <input type="text" id="username" name="username" 
+                               value="<?= ($data['username']); ?>" 
                                class="form-control" placeholder="Enter your User ID" required>
                     </div>
 
